@@ -1,0 +1,164 @@
+@media(min-width: 1024px){
+	header{
+		width: 100%;
+		height: 50px;
+		background-color:#BA68C8;
+	}
+	header a{
+		border: 1px solid black;
+	font-style: lato;
+	font-size: 23px;
+	border-style:solid ;
+	border-color:#BA68C8;
+	background-color:#BA68C8;
+	position:relative;
+	top:10px;
+}
+nav{
+	width: 30%;
+	height:475px;
+	float: left;
+	font-style: arial;
+	background-color: lightgrey;
+}
+nav a{
+	font-size: 25px;
+	position: relative;
+	 top:16px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.one{
+
+	width: 40%;
+height: 200px;
+	background-color: #FFF176;
+	margin-left: 50px;
+	position: relative;
+	top:15px;
+}
+.two{
+	margin-top: -200px;
+	width: 40%;
+height: 200px;
+	background-color: #FFF176;
+	margin-left: 400px;
+position: relative;
+top:15px;
+}
+.three{
+	margin-top: 90px;
+	width: 30%;
+height: 185px;
+	background-color: #FFF176;
+	margin-left: 50px;
+	
+}
+.four{
+	margin-top: -185px;
+	width: 30%;
+height: 185px;
+	background-color: #FFF176;
+	margin-left: 280px;
+	
+}
+.five{
+	margin-top: -185px;
+	width: 33%;
+height: 185px;
+	background-color:#FFF176;
+	margin-left: 520px;
+	
+}
+footer{
+	height:60px;
+	width:100%;
+	background-color:#BA68C8;
+	font-size: 20PX;
+}
+}
+@media(min-width:320px) and (max-width:1023px){
+	header{
+		width: 100%;
+		height: 50px;
+		background-color: #BA68C8;
+	}
+	header a{
+		
+	font-style: lato;
+	font-size: 23px;
+	border-style:solid ;
+	border-color:#EC7063;
+	background-color:#EC7063;
+	position:relative;
+	top:10px;
+}
+nav{
+	margin-top: 10px;
+	width: 100%;
+	height:100px;
+	font-style: arial;
+	background-color: lightgrey;
+}
+nav a{
+	font-size: 25px;
+	position: relative;
+	 top:16px;
+}
+.container{
+	display: block;
+	clear:both;
+
+}
+.one{
+
+	width: 100%;
+height: 200px;
+	background-color: #FFF176;
+	margin-left: -2px;
+	position: relative;
+	top:15px;
+}
+.two{
+	
+	width: 100%;
+height: 200px;
+	background-color: #FFF176;
+	margin-left: -2px;
+position: relative;
+top:15px;
+margin-top: 10px;
+}
+.three{
+	margin-top: 25px;
+	width: 100%;
+height: 185px;
+	background-color: #FFF176;
+	margin-left: -2px;
+	
+}
+.four{
+margin-top: 10px;
+	width: 100%;
+height: 185px;
+	background-color: #FFF176;
+	margin-left: -2px;
+	
+}
+.five{
+	margin-top: 10px;
+	width: 100%;
+height: 185px;
+	background-color:#FFF176;
+	margin-left: -2px;
+	}
+	footer{
+	height:60px;
+	width:100%;
+	background-color:#BA68C8;
+	font-size: 20PX;
+	margin-top: 10px;
+}
+}
